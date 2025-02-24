@@ -1,171 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Santhosh Kumar Srinivasan - GitHub Profile</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 20px;
-      color: #333;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    }
-
-    h1 {
-      color: #0056b3;
-      text-align: center;
-    }
-
-    h2 {
-      color: #444;
-      margin-top: 40px;
-      font-size: 1.5em;
-    }
-
-    p {
-      font-size: 1.1em;
-      margin: 10px 0;
-    }
-
-    .button {
-      background-color: #0056b3;
-      color: white;
-      padding: 10px 15px;
-      text-align: center;
-      font-size: 1.2em;
-      margin-top: 10px;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-
-    .button:hover {
-      background-color: #00429b;
-    }
-
-    .section-header {
-      font-size: 1.3em;
-      color: #0056b3;
-      cursor: pointer;
-      padding: 10px;
-      margin: 10px 0;
-      background-color: #e2f0fe;
-      border-radius: 5px;
-      transition: 0.3s;
-    }
-
-    .section-header:hover {
-      background-color: #d0e7fd;
-    }
-
-    .collapsible-content {
-      display: none;
-      margin: 15px 0;
-    }
-
-    .collapsible-content p {
-      margin: 10px 0;
-    }
-
-    .github-stats {
-      text-align: center;
-      margin-top: 30px;
-    }
-
-    .github-stats img {
-      max-width: 100%;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santhosh Kumar Srinivasan - Resume</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f4f4; }
+        header { text-align: center; }
+        header h1 { font-size: 36px; margin-bottom: 10px; }
+        header p { font-size: 18px; margin-bottom: 20px; color: #555; }
+        section { margin: 20px 0; }
+        h2 { font-size: 28px; color: #333; }
+        ul { list-style-type: none; padding-left: 0; }
+        li { font-size: 16px; margin-bottom: 8px; }
+        .contact-info { font-size: 16px; color: #555; }
+        .contact-info a { text-decoration: none; color: #007BFF; }
+        .contact-info a:hover { text-decoration: underline; }
+        .section-title { font-size: 22px; font-weight: bold; }
+        .skills, .awards, .education { margin-top: 20px; }
+        .experience { margin-top: 20px; }
+        .job-title { font-weight: bold; }
+        .job-duration { font-style: italic; color: #777; }
+        .job-description { margin-left: 20px; }
+        .certifications, .projects { margin-top: 20px; }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Santhosh Kumar Srinivasan</h1>
+        <p class="contact-info">Email: <a href="mailto:santhoshsrinivasan24@gmail.com">santhoshsrinivasan24@gmail.com</a> | Phone: 778 899 9050 | <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | Location: Vancouver, BC</p>
+    </header>
 
-<div class="container">
-  <h1>👋 Hi, I'm <strong>Santhosh Kumar Srinivasan</strong></h1>
-  <p>An experienced <strong>Project Manager</strong> & <strong>Technology Leader</strong> based in <strong>Vancouver, BC</strong>, with <strong>8+ years</strong> of experience leading large-scale projects, optimizing systems, and improving operational efficiency in **healthcare**, **network operations**, and **web development**. I specialize in **Agile methodologies**, **automation solutions**, and **backend architecture**.</p>
+    <section>
+        <h2>Summary</h2>
+        <p>Experienced Project Manager and Technology Leader with 8+ years of managing cross-functional teams in the development and optimization of large-scale, high-performance systems. Expertise in Agile methodologies, backend architecture, and driving cost optimization efforts. Proven track record of managing complex technical projects, reducing operational costs, and improving system performance. Passionate about leading teams to innovate and deliver customer-focused solutions, and experienced in delivering software projects in healthcare, network operations, and web development. Developed and implemented two automation tools, reducing manual workload and improving efficiency in daily operations.</p>
+    </section>
 
-  <div class="github-stats">
-    <h2>📈 GitHub Stats</h2>
-    <img src="https://github-readme-stats.vercel.app/api?username=santhoshsrinivasan24&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical" alt="Santhosh's GitHub Stats">
-  </div>
+    <section class="experience">
+        <h2>Professional Experience</h2>
 
-  <div class="section-header" onclick="toggleContent('experience')">
-    <h2>1️⃣ Professional Experience</h2>
-  </div>
-  <div class="collapsible-content" id="experience">
-    <h3>🌟 **Technology Lead / Project Manager** at **Infosys** | *Canada* (Mar 2023 – Present)</h3>
-    <p>Led a cross-functional team for a **QNXT upgrade** project for LA Care, improving performance and saving **$100K** in vendor maintenance costs. Managed cost optimization strategies, reducing operational costs by **20%**. Delivered automation solutions, saving **$250K** annually in claims processing.</p>
-    <h3>🌟 **NOC Manager** at **Infosys** | *Canada* (Oct 2022 – Feb 2023)</h3>
-    <p>Managed a team of **10 engineers**, ensuring **24/7 network operations** for healthcare applications, boosting uptime by **30%**. Led incident management for rapid response to network outages.</p>
-    <h3>🌟 **Technology Analyst** at **Infosys** | *Canada* (Oct 2021 – Sep 2022)</h3>
-    <p>Managed web applications for healthcare-related processes (C#, .NET), improving processing efficiency by **25%**. Implemented **automation tools**, saving **$250K** annually.</p>
-  </div>
+        <div>
+            <h3 class="job-title">Technology Lead/Project Manager, Infosys – Canada</h3>
+            <p class="job-duration">Mar 2023 – Present</p>
+            <ul class="job-description">
+                <li>Led a cross-functional team of 20 engineers in a QNXT upgrade project, delivering complex technical solutions that ensured compliance with healthcare regulations and improved system performance.</li>
+                <li>Implemented cost optimization strategies, reducing operational costs by 20% while ensuring scalable backend infrastructure for improved system reliability and customer trust.</li>
+                <li>Collaborated with IT, clinical, and compliance teams, aligning project requirements and overseeing the integration of custom features with external vendors, ensuring timely and on-budget delivery.</li>
+                <li>Identified and mitigated project risks, resulting in on-time delivery of system updates and a 40% reduction in regulatory fines due to enhanced compliance practices.</li>
+                <li>Improved system performance and workflows, reducing manual processes and eliminating costly custom code, saving $100K in vendor maintenance costs.</li>
+                <li>Utilized Agile methodologies (Scrum, Kanban) to ensure iterative development and successful delivery of key milestones in line with project timelines.</li>
+                <li>Took up multiple program management and consulting assignments in end-to-end business process analysis and provide roadmap to customer for enabling them to meet the dynamic market needs.</li>
+                <li>Trained project teams on domain and technology (to ramp up new teams based on project needs).</li>
+            </ul>
+        </div>
 
-  <div class="section-header" onclick="toggleContent('projects')">
-    <h2>2️⃣ Featured Projects</h2>
-  </div>
-  <div class="collapsible-content" id="projects">
-    <h3>🚀 **Auto Adjust Tool**</h3>
-    <p>Automated **claims adjustments and reversals**, saving **$250K** annually.</p>
-    <h3>🚀 **QNXT Upgrade for LA Care**</h3>
-    <p>Led the **QNXT upgrade** project, improving **system performance** and reducing **vendor maintenance** costs.</p>
-    <h3>🚀 **Medicaid Member EOB Integration**</h3>
-    <p>Implemented **data integration**, improving operational efficiency by **25%**.</p>
-  </div>
+        <div>
+            <h3 class="job-title">LA Care - NOC Manager</h3>
+            <p class="job-duration">Oct 2022 - Feb 2023</p>
+            <ul class="job-description">
+                <li>Managed a team of 10 engineers and technicians to ensure 24/7 network performance and rapid incident response times, ensuring system availability of critical healthcare applications.</li>
+                <li>Implemented process improvements in network monitoring workflows, improving NOC efficiency by 30% and reducing incident response times, increasing uptime across platforms.</li>
+                <li>Led incident management and root cause analysis, collaborating with stakeholders to resolve network outages quickly and reduce service disruptions, thereby enhancing system reliability.</li>
+            </ul>
+        </div>
 
-  <div class="section-header" onclick="toggleContent('technologies')">
-    <h2>3️⃣ Technologies & Tools</h2>
-  </div>
-  <div class="collapsible-content" id="technologies">
-    <h3>🖥️ **Languages & Frameworks**</h3>
-    <p>C#, Python, Java, SQL, .NET (MVC, Web API), Entity Framework, React, LINQ, BizTalk</p>
-    <h3>☁️ **Cloud & Platforms**</h3>
-    <p>Microsoft Azure, MS SQL Server, Oracle</p>
-    <h3>⚙️ **Project Management & Methodologies**</h3>
-    <p>SCRUM, Kanban, Waterfall, Risk Management, Stakeholder Communication</p>
-  </div>
+        <!-- Add more job roles below following the same structure as the above -->
 
-  <div class="section-header" onclick="toggleContent('education')">
-    <h2>4️⃣ Education & Certifications</h2>
-  </div>
-  <div class="collapsible-content" id="education">
-    <h3>🎓 **Bachelor of Technology in Information Technology**</h3>
-    <p>SRM University, Chennai, India (2012 - 2016)</p>
-    <h3>🏅 **Certifications**</h3>
-    <p>Google Project Management Certificate, Microsoft Azure Fundamentals (AZ-900), PMP (Pursuing)</p>
-  </div>
+    </section>
 
-  <div class="section-header" onclick="toggleContent('contact')">
-    <h2>5️⃣ Get in Touch</h2>
-  </div>
-  <div class="collapsible-content" id="contact">
-    <p>Email: <a href="mailto:santhoshsrinivasan24@gmail.com">santhoshsrinivasan24@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/santhoshsrinivasan">Santhosh Kumar Srinivasan</a></p>
-    <p>Phone: 778-899-9050</p>
-    <p><a href="#" class="button">Visit Portfolio</a></p>
-  </div>
-</div>
+    <section class="skills">
+        <h2>Technical Skills & Tools</h2>
+        <ul>
+            <li><strong>Project Management Skills:</strong> Project Scoping and Planning, Budgeting and Procurement, Risk Management, Process Improvement, Stakeholder Communication, SCRUM and Kanban, Agile & Waterfall Methodologies, Client Relationship Management.</li>
+            <li><strong>Programming Languages:</strong> C#, ASP.net, .NET Framework 4.8, Python, SSIS, SSRS, Web Services, Rest API, MVC4.</li>
+            <li><strong>Database Management:</strong> MS SQL Server, Oracle.</li>
+            <li><strong>Cloud Platforms & Technologies:</strong> Azure - GIT.</li>
+            <li><strong>Front-end, Back-end Frameworks:</strong> Entity Framework 4.0, LINQ, jQuery, JavaScript, HTML, CSS, JSON, Kendo UI.</li>
+            <li><strong>DevOps & Tools:</strong> Visual Studio, IIS, Services, JIRA, Service Now, MS Excel, MS Project, Confluence, Dynatrace, SolarWinds, Share point, SSMS, SQL Developer, GitHub.</li>
+        </ul>
+    </section>
 
-<script>
-  function toggleContent(id) {
-    var content = document.getElementById(id);
-    if (content.style.display === "none" || content.style.display === "") {
-      content.style.display = "block";
-    } else {
-      content.style.display = "none";
-    }
-  }
-</script>
+    <section class="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Google Project Management Certificate</li>
+            <li>Pursuing Project Management Professional (PMP) Certification</li>
+            <li>Infosys Great Manager Program</li>
+            <li>Infosys Global Agile Certification</li>
+            <li>Infosys Certified Applied Generative AI Professional</li>
+            <li>AZ-900 - Microsoft Azure Fundamentals</li>
+        </ul>
+    </section>
 
+    <section class="awards">
+        <h2>Awards & Recognitions</h2>
+        <ul>
+            <li>Infosys Platinum Club Member for exceptional performance in 2023.</li>
+            <li>2nd place for the highest number of BOT(Automation) ideas in Healthcare Botathon in 2022.</li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor of Technology in Information Technology</strong> (Aug 2012 - May 2016) - SRM University, Chennai, India</li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Academic Projects and Publications</h2>
+        <ul>
+            <li><strong>Travio Holidays, Infosys (May 2016):</strong> Created a web application using Asp.net MVC with C# and SQL server for a travel agency.</li>
+            <li><strong>Automation Of Examination Invigilation System, SRM University (Jan 2016):</strong> Developed a web application to automate invigilator allocation using C#, MVC 5, jQuery, SQL Server 2012, and Entity framework.</li>
+        </ul>
+    </section>
 </body>
 </html>
